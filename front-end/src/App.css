@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.input-button-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+input[type="add"] {
+  padding: 10px;
+  width: 800px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 700px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bff;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0; 
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px; 
+  border: 2px solid #ddd; 
+  border-radius: 5px; 
+  margin-bottom: 10px; 
+  width: 100%; 
+  background-color: #fff; 
+}
+
+li span {
+  font-size: 1.2rem;
+  color: #333;
+  width: 70%; 
+}
+
+li button {
+  margin-left: 10px;
+}
+
+.action-buttons {
+  display: flex; 
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.action-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem; 
+  color: #333;
+}
+
+.action-buttons button.edit {
+  color: #007bff; 
+}
+
+.action-buttons button.delete {
+  color: #ff5733; 
+}
+
+.action-buttons button.close-edit {
+  color: #ccc; 
+}
+
+.action-buttons button:hover {
+  color: #cf2768;
+}
+
+input[type="text"].edit-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+.edit-mode {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.close-edit {
+  color: #ccc;
+  font-size: 1.2rem; 
+}
+
+.close-edit:hover {
+  color: #ff0000; 
+}
+
+button:focus {
+  outline: none;
+}
+
+.edit-input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
