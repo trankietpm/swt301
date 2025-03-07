@@ -31,7 +31,7 @@ Backend
 Before you start, you need to install:
 - **Java 17+** (Spring Boot 3.5 requires JDK 17 or higher) - [Download here](https://adoptium.net/)
 - **Maven** (Selected when creating the project) - [Download here](https://maven.apache.org/)
-- **MySQL [Download here]([https://maven.apache.org/](https://cdn.mysql.com//Downloads/MySQLInstaller/mysql-installer-web-community-8.0.40.0.msi))
+- **MySQL [Download here](https://cdn.mysql.com//Downloads/MySQLInstaller/mysql-installer-web-community-8.0.40.0.msi)
 - **Postman or Curl** for API testing
 
 ### **2️⃣ Create a Spring Boot project from start.spring.io**
