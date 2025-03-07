@@ -15,10 +15,10 @@ Ensure you have the following installed:
 - **VS Code or any IDE** for coding
 
 ### **2️⃣ Clone the Repository**
-
+```properties
 Front-end
 To create a new React project, open a terminal and run:  
-```sh
+
 npx create-react-app front-end
 Download the jest library using the command **npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event**
 How to run source:
