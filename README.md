@@ -1,4 +1,4 @@
-# SWT301 - Lab 2: Unit Testing with React and Jest
+# SWT301 - Lab 2: Unit Testing with React and StringBoot
 
 ## 📌 Introduction
 This project is a React-based application that demonstrates **unit testing using Jest and React Testing Library**. The goal is to ensure that the core components work as expected using **best practices in unit testing**.
