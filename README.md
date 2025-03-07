@@ -1,9 +1,9 @@
 # SWT301 - Lab 2: Unit Testing with React and StringBoot
 
 ## 📌 Introduction
-This project is a React-based application that demonstrates **unit testing using Jest and React Testing Library**. The goal is to ensure that the core components work as expected using **best practices in unit testing**.
-This is a **Backend API** project using **Spring Boot 3.5** and **Maven**. The goal is to build a **simple CRUD** system with **Spring Boot**, using **MySQL** as the database.
-**Video Demo:** [Watch here](https://www.loom.com/share/afe35313b2d14e7b9f9e74831f17e766)
+- This project is a React-based application that demonstrates **unit testing using Jest and React Testing Library**. The goal is to ensure that the core components work as expected using **best practices in unit testing**.
+- This is a **Backend API** project using **Spring Boot 3.5** and **Maven**. The goal is to build a **simple CRUD** system with **Spring Boot**, using **MySQL** as the database.
+- **Video Demo:** [Watch here](https://www.loom.com/share/afe35313b2d14e7b9f9e74831f17e766)
 ---
 
 ## 🛠 Project Setup and Installation
