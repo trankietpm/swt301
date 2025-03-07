@@ -15,7 +15,6 @@ Ensure you have the following installed:
 - **VS Code or any IDE** for coding
 
 ### **2️⃣ Clone the Repository**
-```properties
 Front-end
 To create a new React project, open a terminal and run:  
 
