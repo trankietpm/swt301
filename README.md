@@ -16,14 +16,12 @@ Ensure you have the following installed:
 
 ### **2️⃣ Clone the Repository**
 Front-end
-To create a new React project, open a terminal and run:  
-
-npx create-react-app front-end
-Download the jest library using the command **npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event**
-How to run source:
-Run the following command to install the required dependencies: npm install
-**npm run start**
-How to run test **npm test**
+- To create a new React project, open a terminal and run: npx create-react-app front-end
+- Download the jest library using the command **npm install --save-dev jest @testing-library/react @testing-library/jest-dom @testing-library/user-event**
+- How to run source:
+- Run the following command to install the required dependencies: npm install
+- Run Project: **npm run start**
+- How to run test **npm test**
 
 
 Backend 
