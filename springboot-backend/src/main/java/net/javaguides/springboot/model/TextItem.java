@@ -26,7 +26,7 @@ public class TextItem {
     private long id;
 
     @NotBlank(message = "Content cannot be empty")
-    @Size(max = 120, message = "Content cannot exceed 120 characters")
+    @Size(max = 92, message = "Content cannot exceed 92 characters")
     @Column(name = "content")
     private String content;  
 }
